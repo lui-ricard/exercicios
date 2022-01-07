@@ -1,0 +1,54 @@
+@charset "UTF-8"; 
+
+*{
+    /*height: 100%;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+body{
+    background-image: linear-gradient(to right, #5F3CDB, #5F3CDB);
+}
+main{
+    background-color: #989DDB;
+    border-radius: 40px 10px;
+    box-shadow: 8px 8px 5px #6519b1;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+    color:#4e55da;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(150, 101, 197);
+    
+}
+h1#Principal{
+   text-align:center;
+   background-color: #373c88;
+}
+
+h2{
+    font-family: 'Handlee', cursive;
+    color:#336CE8;
+    text-align: right;
+}
+.basico{
+    background-color: #373c88;
+}
+.segundo{
+    background-color: #373c88;
+}
+.terceiro{
+    background-color: #373c88;
+}
+
+
+p{
+    font-family: 'Handlee', cursive;
+    text-align: justify;
+    text-indent: 35px;
+}

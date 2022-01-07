@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>abrindo site em varios disoisitivos</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html5</p>
+    <audio src="midia/First Of 3 - Jeremy Black.mp3" controls autoplay></audio>
+    <!--mp3,wav,oGG-->
+</body>
+</html>
